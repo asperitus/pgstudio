@@ -1,0 +1,16 @@
+PostgreSQL Studio README
+==================
+ 
+Introduction
+------------
+PostgreSQL Studio gives you the power to perform essential PostgreSQL 
+database development tasks from a web-based console. With more and more 
+PostgreSQL databases running in a Cloud environment, PostgreSQL Studio 
+lets you work with your databases without the need to open firewalls.
+
+Compilation
+-----------
+> ant clean
+> ant deploy
+
+A CloudFoundry-ready version (complete with a simple manifest file) can be found at:  https://github.com/john-k-ge/pg_studio_1.2_cf  
