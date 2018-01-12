@@ -101,7 +101,7 @@ public class DataProxy extends HttpServlet {
             w.close();
             resp.setStatus(HttpServletResponse.SC_OK);
         } catch (Exception e) {
-            throw new IOException("Shouldn't happed");
+            throw new IOException("Shouldn't happen", e);
         }
     }
 

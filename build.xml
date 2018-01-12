@@ -35,9 +35,6 @@
     <target name="prepare">
       <mkdir dir="${build.dir}"/>
     </target>
-        
-    <property name="proxy.host" value="proxy-src.research.ge.com" />
-    <property name="proxy.port" value="8080"/>
 
     <target name="clean">
       <delete dir="${build.dir}"/>
